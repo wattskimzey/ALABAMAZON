@@ -2,7 +2,7 @@
 It's the place to go to buy the stuff you need in Alabama.  Y'all.  
 
 # ALABAMAZON
-![ALABAMAZON](https://raw.githubusercontent.com/tomboygitty/Project-2/master/public/images/LBK2GO_LOGO.png)
+![ALABAMAZON](https://raw.githubusercontent.com/wattskimzey/ALABAMAZON/master/images/alabamazon.PNG)
 
 ## Description
 LBK2GO is a song request program that allows multiple users to request songs to sing at live band karaoke shows.  As songs are submitted, they enter a queue.  The MC of the show monitors the queue and marks songs as sung.  Queue order can be manipulated by the MC in the event of a tip or multiple requests from the same singer.
