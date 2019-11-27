@@ -1,6 +1,9 @@
 # ALABAMAZON
 ![ALABAMAZON](https://raw.githubusercontent.com/wattskimzey/ALABAMAZON/master/images/alabamazon.PNG)
 
+# VIDEO WALK THROUGH
+[Go To ALABAMAZON!](https://drive.google.com/file/d/1pQrqWTIJ8V88o5sW6bZLgx_thzCRBB4G/view).
+
 ## Description
 ALABAMAZON is the place to go to buy the stuff you need in Alabama, y'all.
 * Y'all gonna need to look at the screenshots, because Homer Jenkins told us we wasn't gonna have no online backend database.
