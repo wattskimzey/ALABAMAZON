@@ -1,57 +1,31 @@
 # ALABAMAZON
-It's the place to go to buy the stuff you need in Alabama.  Y'all.  
-
-# ALABAMAZON
 ![ALABAMAZON](https://raw.githubusercontent.com/wattskimzey/ALABAMAZON/master/images/alabamazon.PNG)
 
 ## Description
-LBK2GO is a song request program that allows multiple users to request songs to sing at live band karaoke shows.  As songs are submitted, they enter a queue.  The MC of the show monitors the queue and marks songs as sung.  Queue order can be manipulated by the MC in the event of a tip or multiple requests from the same singer.
+ALABAMAZON is the place to go to buy the stuff you need in Alabama, y'all.
+* Y'all gonna need to look at the screenshots, because Homer Jenkins told us we wasn't gonna have no online backend database.
+* Now don't get me wrong y'hear - this here app has done been hooked up to a MYSQL database on my system, and I created a Table that has all the stuff that's done gonna be sold.  Each one a-them items has a unique id, name, department, price and quantity. I was gonna put in color options, but Maw Maw was callin' us in fer dinner so I had to cut off afore she punched me in the eye for bein' late to the table. 
+* ALABAMAZON uses that there MYSQL.  No, not the sequel to "Dukes of Hazzard"
+* ALABAMAZON got itself all hitched up with inquirer.  No, not the National Inquirer, that makes about as much sense as chewin' the tail off a hog
+* ALABAMAZON also uses Node.js, because iffen it didn't, then the whole thing would go off the rails and hit a cedar tree in Poke Robertson's back field.  
+* Now what you gotta do, assumin' you've avoided my guard cow and managed to bust into my laptop, is fire up the app using Node.  I knowed you knowed that.  Then you can play around buyin' all the stuff you know you really need.  ALABAMAZON can show you what's available, and acts like one of them silly little eCommerce sites like Amazon in that you can ask it questions and what not.  
 
 ## Motivation
-Live Band Karaoke (LBK for the un-initiated) is different from traditional karaoke in that the singer sings with a live band rather than backing tracks.  While modern karoke venues have access to hundreds of thousands of backing tracks, most LBK bands only know a few hundred songs.  As such, song menus must be distributed, along with pens and requests slips in the venue.  Singers review the song menu, fill out request slips and give them to the MC. The MC has to run the show based on a stack of request slips in hand.  The manual solution is costly, hard to maintain, and not effective in extremely dark venues.  So we decided to come up with a less sucky solution. 
+Well, I wouldn't slap you in the face with a catfish to avoid bein' a liar, so I'll just say it up front.  I had to do this hear app because my bootcamp says I have to do it or they'll take me out into the town square and flog me in public.  I don't want that to happen again. 
 
 ## Results
-We're pretty happy with what we were able to accomplish with our MVP.  Initially, we had a large list of use cases we were trying to tackle, but the tight turnaround forced us to re-swizzle a realistic MVP.
+It looks better than a sharp stick in the eye.
 
 ## Team Efforts
-* _Idea and project management_ - Richard 
-* _front end/back end_ - Tom & James
+* layout - ME
+* coding - ME
+* Gittin' the hub - ME
+* Everything else - ME
 
 ### Challenges
-The biggest challenge was time.  Standups and daily meetings were minimal due to personal schedules. Luckily, we were able to get in a couple of days in class to work solely on the project. Secondly, we had to keep in mind that 90%+ of the guest singers would be inebriated - so a simple interface was key.  This meant dumbing down the MVP, as evidenced by the lengthy list of future improvements.
+I was surely regrettin' that I waited so long to complete this homework.  I wish it'd be as easy to remember node.js and MYSQL as it is to remember all the 9,785 types of blue tick hounds, but it 't'ain't.  So it took me whut felt like about 87 years to do this. 
 
 ## Improvements
-The MVP is the framework for a far greater program. Among the things we'd like to incorporate in future releases (_in no particular order_)
-* incorporate tip to skip
-    * hook in Paypal, Venmo et al.  If a user submits an online payment, the MC is alerted and can re-order the queue based on tip amount
-    * allow MC to manually enter a tip if paid in cash
-* authentication
-    * Credentials for dedicated MC control room
-    * Show code credentials for users   
-* Post Show wrap up
-    * allow show to be pushed to a show database
-    * Date, Venue, songs performed, songs deferred, songs deleted, songs tipped
-    * Tip Total
-    * user tracking via email (_if provided_)
-* User Feedback
-    * allow users to submit suggestions for new songs for the band to learn
-    * allow users to submit a note to the band
-* Ad Hoc Song Input
-    * allow MC to insert a song into the queue in case the band performs on their own or band performs a song not on the song menu
-* Expand from a mobile-friendly site to mobile app platform.  
-* User performance download
-    * user has option to download video of their performance.  Monetization may not be possible due to DMCA
-* Automated user thank you notification
-    * If user provided an email address and their song was marked as sung by the MC, they'll receive an email that thanks them for singing their selection at the venue on the date of the event
-* View all songs
-    * users can scroll through all songs alphabetically by song title or artist, genre or key
-* Song Roulette
-    * the program picks a song at random
-* User messaging
-    * this can be used to broadcast messages to users who are in the program, such as drink specials
-* MC messaging
-    * a user can message the MC during the show
-* Advertising
-    * there's always room for a banner somewhere.
-* In-app click tracking
-    * by user session, what did they do?  Use this to further tweak the program
+* I think I'd like to put indoor plumbing in the house.
+* Mebbe I kin figure out more stuff to sell
+* YEEE HAWW BOOT CAMP!! ROLL CODE!!
