@@ -7,16 +7,16 @@ var connection = mysql.createConnection({
 
     port: 3306,
 
-    user: "root",
+    user: "Richard",
 
-    password: "root",
+    password: "I3mnws3r#",
     database: "alabamazon"
 });
 connection.connect(function (err) {
     if (err) throw err;
 
     displayProducts();
-    setTimeout(shop, 3000);
+    setTimeout(shop, 1500);
 });
 
 function displayProducts() {
@@ -51,7 +51,7 @@ function shop() {
                 {
                     name: "quantity",
                     type: "list",
-                    choices: ["1", "2", "3", "4", "5"],
+                    choices: ["1", "2", "3", "4", "5","200"],
                     message: "HOW MANY DO YA WANT?"
                 }
             ])
@@ -79,14 +79,14 @@ function shop() {
                         function(error){
                             if (error) throw err;
                             console.log("GLORY BE YOU BOUGHT SOME STUFF! IT'S GONNA COST YA $" + totalPaid);
-                            setTimeout(displayProducts, 3000);
+                            setTimeout(displayProducts, 1500);
                             setTimeout(shop, 5000);
                         }
                     )
                 }
                 else{
                     console.log("LUKE HORKSTADER ALREADY BOUGHT ALL THESE.  TRY BUYIN' SOMETHIN' ELSE.");
-                    setTimeout(displayProducts, 3000);
+                    setTimeout(displayProducts, 1500);
                     setTimeout(shop, 5000);
                 }
             });

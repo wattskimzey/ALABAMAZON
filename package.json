@@ -1,0 +1,23 @@
+{
+  "name": "alabamazon",
+  "version": "1.0.0",
+  "description": "yee yee",
+  "main": "alabamzonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wattskimzey/ALABAMAZON.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wattskimzey/ALABAMAZON/issues"
+  },
+  "homepage": "https://github.com/wattskimzey/ALABAMAZON#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  }
+}
